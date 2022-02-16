@@ -46,8 +46,13 @@ function verifica(sum){
     if (sum % 2 === 0){
         check = true
     } 
-    return check;
+    
 }
 let controllo = verifica(sum)
 console.log(check)
 // alert per comunicar il vincitore
+if(verifica){
+    alert('il numero è pari')
+} else{
+    alert('il numero è dispari')
+}
