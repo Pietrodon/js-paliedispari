@@ -6,12 +6,13 @@
 //  divisione parola
  const newWord = userword.split('')
  console.log(newWord)
+ const newWord2 = newWord.join()
 //  inverso della parola
  let reverseWord = newWord.reverse().join();
  console.log(reverseWord, typeof reverseWord)
  // creazione funzione per capire se la parola è palindroma
  let controllo = false
- if (userword === reverseWord){
+ if (newWord2 === reverseWord){
      controllo = true
  } 
 
